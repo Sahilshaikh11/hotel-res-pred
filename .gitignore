@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Configuration files
+*.yaml
+*.yml
+*.ini
+*.cfg
+
+# Secrets and credentials
+*.json
+!config/*.json  # Allow specific config files if necessary
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Google Cloud credentials
+GOOGLE_APPLICATION_CREDENTIALS
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Miscellaneous
+*.tar.gz
+*.zip
+*.rar
