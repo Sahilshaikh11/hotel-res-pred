@@ -68,3 +68,11 @@ GOOGLE_APPLICATION_CREDENTIALS
 *.tar.gz
 *.zip
 *.rar
+
+# Ignore model files
+*.pkl
+*.joblib
+*.h5
+*.model
+*.onnx
+*.pb
