@@ -19,7 +19,7 @@ class DataProcessor:
         self.test_path = test_path
         self.processed_dir = processed_dir
 
-        self.config_path = read_yaml(config_path)
+        self.config_path = read_yaml(CONFIG_PATH)
 
         if not os.path.exists(self.processed_dir):
             os.makedirs(self.processed_dir)
