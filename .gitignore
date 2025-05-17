@@ -7,6 +7,8 @@ __pycache__/
 # Virtual environment
 venv/
 env/
+mlruns/
+HOTEL_RES_PROJECT.egg-info
 
 # Configuration files
 *.yaml
